@@ -1,19 +1,19 @@
 const ITEMS = [
   {
-    title: 'Residential & remodel',
-    body: 'Kitchens, baths, additions, and whole-home updates with allowances aligned to finish level.',
+    title: 'Remodeling & interiors',
+    body: 'Kitchens, baths, drywall, paint, and finish work — typical residential scopes.',
   },
   {
-    title: 'Commercial & light industrial',
-    body: 'Tenant improvements, small builds, and phased work with schedules that respect operations.',
+    title: 'Flooring & related',
+    body: 'Material and labor thinking for common floor packages.',
   },
   {
-    title: 'Pre-construction & budgeting',
-    body: 'Early-phase ranges and value engineering before you commit drawings to the field.',
+    title: 'Small commercial',
+    body: 'Straightforward TI-style jobs when the tool matches your scope.',
   },
   {
-    title: 'Trade coordination',
-    body: 'Structured handoffs between trades so your estimate reads as a cohesive project story.',
+    title: 'More trades over time',
+    body: 'We add and tune trades as the product grows. Open the app to see what is live today.',
   },
 ]
 
@@ -22,11 +22,11 @@ export default function Services() {
     <section className="services section" id="services" aria-labelledby="services-heading">
       <div className="section__intro">
         <h2 id="services-heading" className="section__title">
-          Services
+          What it covers
         </h2>
         <p className="section__subtitle">
-          One relationship for estimates that hold up in the room — from first conversation to
-          final bid package.
+          The tool focuses on jobs where structured inputs and real-world multipliers actually help.
+          Check the app for the full list of trades and options.
         </p>
       </div>
       <ul className="services__grid">

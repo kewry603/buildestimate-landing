@@ -1,18 +1,18 @@
 const STEPS = [
   {
     n: '01',
-    title: 'Share your project',
-    body: 'Plans, photos, or a walkthrough — we capture scope, constraints, and what success looks like for you.',
+    title: 'Enter project details',
+    body: 'Square footage, location, and job inputs the tool asks for — takes a few minutes.',
   },
   {
     n: '02',
-    title: 'We refine the picture',
-    body: 'Questions, clarifications, and assumptions documented so everyone works from the same brief.',
+    title: 'Choose your trade',
+    body: 'Pick the trade that matches the work so the math lines up with how that job is built.',
   },
   {
     n: '03',
-    title: 'Receive your estimate',
-    body: 'A clear, professional breakdown you can share with clients, lenders, or your own team.',
+    title: 'Get your estimate',
+    body: 'See a breakdown you can read, adjust, or share. Open it anytime in your browser.',
   },
 ]
 
@@ -24,7 +24,7 @@ export default function HowItWorks() {
           How it works
         </h2>
         <p className="section__subtitle">
-          A calm, deliberate process — no black boxes, no surprise line items after the fact.
+          Three steps. No sales call required to try it.
         </p>
       </div>
       <ol className="process__steps">

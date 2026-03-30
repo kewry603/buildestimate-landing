@@ -1,14 +1,13 @@
 export default function Hero() {
   return (
     <section className="hero section" aria-labelledby="hero-heading">
-      <p className="eyebrow">Precision construction estimating</p>
+      <p className="eyebrow">Online construction estimator</p>
       <h1 id="hero-heading" className="hero__title">
-        Estimates that reflect
-        <span className="hero__title-line">the quality of your build</span>
+        Get accurate construction estimates
+        <span className="hero__title-line">in minutes</span>
       </h1>
       <p className="hero__lead">
-        Partner with a team that treats scope, materials, and labor with the same care you bring
-        on site — clear numbers, thoughtful assumptions, and documentation ready for stakeholders.
+        Use our estimator tool to quickly calculate project costs based on real construction experience.
       </p>
       <div className="hero__actions">
         <a
@@ -20,7 +19,7 @@ export default function Hero() {
           Get My Estimate
         </a>
         <a href="#process" className="btn btn--ghost">
-          How we work
+          How it works
         </a>
       </div>
     </section>

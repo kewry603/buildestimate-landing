@@ -1,19 +1,19 @@
 const POINTS = [
   {
-    title: 'Built on field experience',
-    body: 'Estimates grounded in how work actually gets done — not generic templates.',
+    title: 'Fast',
+    body: 'Get numbers in minutes instead of building a spreadsheet from scratch.',
   },
   {
-    title: 'Transparent methodology',
-    body: 'You see what is included, what is allowance-based, and where decisions remain open.',
+    title: 'Grounded in real jobs',
+    body: 'Rates and logic reflect construction experience — not random internet guesses.',
   },
   {
-    title: 'Presentation-ready output',
-    body: 'Formatting and language suited to homeowners, architects, and commercial reviewers alike.',
+    title: 'Built in Nashua, NH',
+    body: 'Developed with regional work in mind; use your own judgment for every quote.',
   },
   {
-    title: 'Responsive partnership',
-    body: 'Revisions when scope shifts, with a focus on keeping your timeline credible.',
+    title: 'Plain-language breakdown',
+    body: 'See where the total comes from so you can explain it or tweak assumptions.',
   },
 ]
 
@@ -22,11 +22,10 @@ export default function WhyChooseUs() {
     <section className="why section" id="why-us" aria-labelledby="why-heading">
       <div className="section__intro">
         <h2 id="why-heading" className="section__title">
-          Why choose us
+          Why use this tool
         </h2>
         <p className="section__subtitle">
-          We serve builders and owners who need estimates that stand up to scrutiny — quietly
-          confident, never loud.
+          When you need a credible range now — not a week from now.
         </p>
       </div>
       <ul className="why__grid">

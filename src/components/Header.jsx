@@ -7,9 +7,10 @@ export default function Header() {
           <span className="logo__mark logo__mark--accent">Estimate</span>
         </a>
         <nav className="nav" aria-label="Primary">
-          <a href="#services">Services</a>
-          <a href="#process">Process</a>
-          <a href="#why-us">Why us</a>
+          <a href="#what-is-this">What is this?</a>
+          <a href="#services">Coverage</a>
+          <a href="#process">How it works</a>
+          <a href="#why-us">Why use it</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>

@@ -2,17 +2,13 @@ export default function Footer() {
   return (
     <footer className="site-footer" id="contact">
       <div className="site-footer__cta">
-        <h2 className="site-footer__cta-title">Start with a conversation</h2>
+        <h2 className="site-footer__cta-title">Questions or feedback?</h2>
         <p className="site-footer__cta-text">
-          Tell us about your project timeline and we will respond with next steps.
+          We are based in Nashua, NH. Email us if something looks off or you need a feature — we
+          read every message.
         </p>
-        <a
-          href="https://buildestimate-six.vercel.app/"
-          className="btn btn--primary btn--wide"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Get My Estimate
+        <a href="mailto:hello@example.com" className="btn btn--primary btn--wide">
+          Email us
         </a>
       </div>
       <div className="site-footer__bar">
@@ -21,6 +17,10 @@ export default function Footer() {
           <span className="logo__mark logo__mark--accent">Estimate</span>
         </p>
         <div className="site-footer__meta">
+          <span>Nashua, NH</span>
+          <span className="site-footer__sep" aria-hidden>
+            ·
+          </span>
           <a href="mailto:hello@example.com">hello@example.com</a>
           <span className="site-footer__sep" aria-hidden>
             ·
