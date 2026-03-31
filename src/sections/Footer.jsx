@@ -1,17 +1,7 @@
 export default function Footer() {
   return (
     <footer className="site-footer" id="contact">
-      <div className="site-footer__cta">
-        <h2 className="site-footer__cta-title">Questions or feedback?</h2>
-        <p className="site-footer__cta-text">
-          We are based in Nashua, NH. Email us if something looks off or you need a feature — we
-          read every message.
-        </p>
-        <a href="mailto:hello@example.com" className="btn btn--primary btn--wide">
-          Email us
-        </a>
-      </div>
-      <div className="site-footer__bar">
+      <div className="site-footer__bar site-footer__bar--solo">
         <p className="site-footer__brand">
           <span className="logo__mark">Build</span>
           <span className="logo__mark logo__mark--accent">Estimate</span>
@@ -21,7 +11,7 @@ export default function Footer() {
           <span className="site-footer__sep" aria-hidden>
             ·
           </span>
-          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="mailto:kewry603@gmail.com">kewry603@gmail.com</a>
           <span className="site-footer__sep" aria-hidden>
             ·
           </span>
