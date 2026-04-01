@@ -25,7 +25,7 @@ export default function Success() {
         <p className="success-page__subtitle">
           You now have full access to BuildEstimate for 1 year.
         </p>
-        <p className="success-page__note">Check your email for your receipt.</p>
+        <p className="success-page__note">Your access is ready. Click below to start using the estimator.</p>
         <div className="success-page__actions">
           <button
             type="button"
