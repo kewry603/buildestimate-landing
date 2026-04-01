@@ -22,9 +22,7 @@ export default function Success() {
       <div className="success-page__glow" aria-hidden />
       <main className="success-page__main">
         <h1 className="success-page__title">Payment Successful 🎉</h1>
-        <p className="success-page__subtitle">
-          You now have full access to BuildEstimate for 1 year.
-        </p>
+        <p className="success-page__subtitle">You now have full access to BuildEstimate.</p>
         <p className="success-page__note">Your access is ready. Click below to start using the estimator.</p>
         <div className="success-page__actions">
           <button

@@ -20,17 +20,15 @@ export default function Hero() {
               className="btn btn--primary"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Get instant estimate — $30/year via Stripe checkout (opens in a new tab)"
+              aria-label="Get instant estimate — $30 one-time via Stripe checkout (opens in a new tab)"
             >
-              Get Instant Estimate – $30/year
+              GET INSTANT ESTIMATE – $30 ONE-TIME
             </a>
             <a href="#features" className="btn btn--ghost">
               View Live Demo
             </a>
           </div>
-          <p className="hero__cta-hint">
-            Unlimited estimates for 1 year. Instant results.
-          </p>
+          <p className="hero__cta-hint">Pay once. Get instant access.</p>
         </div>
         <figure className="hero__visual">
           <div className="hero__img-frame">

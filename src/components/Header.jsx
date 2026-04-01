@@ -17,7 +17,7 @@ export default function Header() {
             href={STRIPE_PAYMENT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Get access — Stripe checkout (opens in a new tab)"
+            aria-label="Get access — $30 one-time via Stripe checkout (opens in a new tab)"
           >
             Get access
           </a>

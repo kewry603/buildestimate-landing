@@ -6,9 +6,9 @@ export default function Pricing() {
           Pricing
         </h2>
         <p className="pricing__amount">
-          Only <span className="pricing__price">$30</span> per year
+          Only <span className="pricing__price">$30</span> one-time
         </p>
-        <p className="pricing__note">Pay once and get full access to the estimator tool.</p>
+        <p className="pricing__note">Pay once. Get instant access.</p>
       </div>
     </section>
   )

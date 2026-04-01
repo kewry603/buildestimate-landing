@@ -15,13 +15,11 @@ export default function SalesCta() {
           className="btn btn--primary btn--wide"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Get instant estimate — $30/year via Stripe checkout (opens in a new tab)"
+          aria-label="Get instant estimate — $30 one-time via Stripe checkout (opens in a new tab)"
         >
-          Get Instant Estimate – $30/year
+          GET INSTANT ESTIMATE – $30 ONE-TIME
         </a>
-        <p className="site-footer__cta-hint">
-          Unlimited estimates for 1 year. Instant results.
-        </p>
+        <p className="site-footer__cta-hint">Pay once. Get instant access.</p>
       </div>
     </section>
   )
