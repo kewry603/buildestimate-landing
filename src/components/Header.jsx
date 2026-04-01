@@ -1,3 +1,5 @@
+import { STRIPE_PAYMENT_URL } from '../constants.js'
+
 export default function Header() {
   return (
     <header className="site-header">
@@ -11,7 +13,14 @@ export default function Header() {
           <a href="#benefits">Benefits</a>
           <a href="#how-it-works">How it works</a>
           <a href="#pricing">Pricing</a>
-          <a href="#cta">Get access</a>
+          <a
+            href={STRIPE_PAYMENT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Get access — Stripe checkout (opens in a new tab)"
+          >
+            Get access
+          </a>
         </nav>
       </div>
     </header>
